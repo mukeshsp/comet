@@ -1,0 +1,43 @@
+.loading {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(192, 192, 192, 0.5);
+	background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body {
+	background-color: #ffbc05;
+	padding:10px;
+}
+
+.container-panel {
+	margin-top: 10px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	font-size:12px;
+}
+.container-title {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	text-decoration: underline #ffbc05;
+	font-weight: bold;
+	font-size:20px;
+}
+.li-heads {
+	font-size: 15px;
+}
+.title-heads {
+	font-size: 22px;
+}
+.container-table-panel {
+	overflow-x: auto;
+	padding: 15px;
+}
